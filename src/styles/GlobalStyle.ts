@@ -26,13 +26,14 @@ const GlobalStyle = createGlobalStyle`
     --font-body-medium: clamp(1.8rem, 2.78vw, 2rem);
     --font-body-regular: clamp(1.4rem, 2.23vw, 1.6rem);
     --font-body-small: clamp(1.3rem, 1.94vw, 1.4rem);
-    --font-body-xsmall: clamp(1.1rem, 1.8vw, 1.3rem);
-    --font-body-micro: clamp(1rem, 1.67vw 1.2rem);
+    --font-body-xsmall: clamp(1.1rem, 1.8vw, 1.2rem);
+    --font-body-micro: clamp(0.8rem, 1.67vw, 1rem);
 
     // Font weight
     --weight-bold: 900;
     --weight-semi-bold: 700;
     --weight-regular: 500;
+    --weight-normal: 400;
     --weight-light: 300;
   }
 `;

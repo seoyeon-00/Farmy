@@ -6,6 +6,10 @@ const LayoutGuide = css`
     margin: 0 auto;
   }
 
+  .tc {
+    text-align: center;
+  }
+
   .flex {
     display: flex;
 
@@ -56,6 +60,12 @@ const LayoutGuide = css`
 
   .grid {
     display: grid;
+  }
+
+  .shadow {
+    &_small {
+      box-shadow: 5px 5px 10px #eeeeee;
+    }
   }
 `;
 
